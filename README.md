@@ -1,3 +1,10 @@
+# Application Flow Example
+- Add a player (/addPlayer)
+- Add another player
+- Add a game result (/addGameResult)
+- View all players (/allPlayers)
+- View top players (/)
+
 # Local Development Environment Setup
 Create a .env (or .env.development, .env.local) file and add the following env variable definition for the backend service URL
 ```
