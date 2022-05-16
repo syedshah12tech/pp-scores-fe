@@ -1,3 +1,17 @@
+# Local Development Environment Setup
+Create a .env (or .env.development, .env.local) file and add the following env variable definition for the backend service URL
+```
+REACT_APP_BASE_GRAPH_URL=<host>/Prod/graphql
+```
+
+From main source directory run to start the app locally
+```
+npm start
+```
+
+# NOTE: Standard Create React App Documentation
+------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
