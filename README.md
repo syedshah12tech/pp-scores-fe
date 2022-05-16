@@ -4,7 +4,12 @@ Create a .env (or .env.development, .env.local) file and add the following env v
 REACT_APP_BASE_GRAPH_URL=<host>/Prod/graphql
 ```
 
-From main source directory run to start the app locally
+From main source directory run the following to install dependencies
+```
+npm install
+```
+
+Then to to start the app for local development run
 ```
 npm start
 ```
